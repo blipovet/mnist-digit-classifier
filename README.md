@@ -4,7 +4,7 @@ Convolutional Neural Network trained on MNIST (≈98% test accuracy). Deployed o
 ---
 ## Demos
 ![Blue Four Demo](screenshots/Demo_blue_four.PNG)
-![Eight Demo](screenshots/demo_eight.png)
+![Eight Demo](screenshots/demo_eight.PNG)
 ---
 
 ## Features
