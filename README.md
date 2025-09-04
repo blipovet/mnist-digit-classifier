@@ -3,6 +3,7 @@
 Convolutional Neural Network trained on MNIST (≈98% test accuracy). Deployed on a serverless Flask API. Includes example notebook and demo.
 ---
 ## Demo
+Upload a handwritten digit and see predictions:
 ![Eight Demo](screenshots/Demo_eight.PNG)
 ---
 
@@ -53,5 +54,5 @@ POST /predict
 ## Model
 - Architecture: Conv2D + Norm → Pool → Conv2D → Norm → Pool → Flatten → Dense → Dense
 - Trained on MNIST; test accuracy: 98.5%
-- [Download pre-trained model](https://github.com/blipovet/mnist-digit-classifier/releases/dowload/v1.0/mnist_cnn.h5)
+- Model file: [mnist_cnn.h5](https://github.com/blipovet/mnist-digit-classifier/releases/dowload/v1.0/mnist_cnn.h5)
 
