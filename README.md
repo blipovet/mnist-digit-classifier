@@ -53,12 +53,16 @@ curl -X POST http://127.0.0.1:5000/predict -F "file=@sample_digit.png"
 
 
 ## Model Analysis:
-- Graph of the model's Accuracy and Loss over the 5 epochs:
-  ![Accuracy and Loss over Epochs](CNN_analysis/accuracy_and_loss_CNN.png)
-- Confusion matrix: 
-  ![Confusion Matrix](CNN_analysis/confusion_matrix_CNN.png)
-  Note that the model predicted the number 1 most accurately, and its most frequent errors are
-  mistaking 6 for 0 and 4 for 9.
+### Accuracy and Loss
+  <p align="center">
+  <img src="CNN_analysis/accuracy_and_loss_CNN.png" width="500">
+  </p>
+### Confusion matrix: 
+  <p align="center">
+  <img src="CNN_analysis/confusion_matrix_CNN.png" width="400">
+  </p>
+  The model predicted a **1** most accurately.
+  Its most frequent errors are confusing **6 → 0** and **4 → 9**.
   
 ## License
 MIT License © 2025 Boris L. Palermo
