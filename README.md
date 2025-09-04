@@ -6,7 +6,6 @@ Convolutional Neural Network trained on MNIST (≈98% test accuracy). Deployed o
 ---
 
 ## Flask API
-POST /predict
 - `digit_classifier_app.py` 
 - Accepts an image (PNG/JPG)
 - Returns the predicted digit + top-3 probabilities in JSON:
