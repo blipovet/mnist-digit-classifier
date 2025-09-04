@@ -1,7 +1,10 @@
 # MNIST Digit Classifier (CNN) — Flask Deployment
 
 Convolutional Neural Network trained on MNIST (≈98% test accuracy). Deployed on a serverless Flask API. Includes example notebook and demo.
-
+---
+## Demos
+![Blue Four Demo](demo_screenshots/demo_blue_four.png)
+![Eight Demo](demo_screenshots/demo_eight.png)
 ---
 
 ## Features
@@ -51,5 +54,5 @@ POST /predict
 ## Model
 - Architecture: Conv2D + Norm → Pool → Conv2D → Norm → Pool → Flatten → Dense → Dense
 - Trained on MNIST; test accuracy: 98.5%
-- Model file mnist_cnn.h5 attached as a release
+- [Download pre-trained model](https://github.com/blipovet/mnist-digit-classifier/releases/dowload/v1.0/mnist_cnn.h5)
 
