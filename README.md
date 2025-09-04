@@ -53,7 +53,8 @@ curl -X POST http://127.0.0.1:5000/predict -F "file=@sample_digit.png"
 
 
 ## Model Analysis:
-- Confusion Matrix:
+- 
+  ![Accuracy and Loss over Epochs](CNN_analysis/accuracy_and_loss_CNN.PNG)
 
 
 ## License
