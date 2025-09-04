@@ -1,0 +1,6 @@
+flask
+flask_limiter
+tensorflow
+numpy
+pillow
+flask-cors
