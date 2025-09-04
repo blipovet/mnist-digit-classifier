@@ -3,7 +3,7 @@
 Convolutional Neural Network trained on MNIST (≈98% test accuracy). Deployed on a serverless Flask API. Includes example notebook and demo.
 ---
 ## Demos
-![Blue Four Demo](screenshots/Demo_blue_four.png)
+![Blue Four Demo](screenshots/Demo_blue_four.PNG)
 ![Eight Demo](screenshots/demo_eight.png)
 ---
 
