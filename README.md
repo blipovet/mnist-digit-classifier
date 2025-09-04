@@ -54,5 +54,5 @@ POST /predict
 ## Model
 - Architecture: Conv2D + Norm → Pool → Conv2D → Norm → Pool → Flatten → Dense → Dense
 - Trained on MNIST; test accuracy: 98.5%
-- Model file: [mnist_cnn.h5](https://github.com/blipovet/mnist-digit-classifier/releases/dowload/v1.0/mnist_cnn.h5)
+- Model file: [mnist_cnn.h5](https://github.com/blipovet/mnist-digit-classifier/releases/tag/v1.0/mnist_cnn.h5)
 
