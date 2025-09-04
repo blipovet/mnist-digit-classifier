@@ -19,16 +19,22 @@ cd mnist-digit-classifier
 ```
 
 2. Create a virtual environment and install:
+```
 python -m venv venv
 source venv/bin/activate   # mac/linux
 # or: venv\Scripts\activate  on Windows PowerShell
 pip install -r requirements.txt
+```
 
 3. Run the Flask app:
+```
 python digit_classifier_app.py
+```
 
-4. Test with curl:
+5. Test with curl:
+```
 curl -X POST http://127.0.0.1:5000/predict -F "file=@sample_digit.png"
+```
 
 ---
 
