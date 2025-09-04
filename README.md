@@ -57,10 +57,12 @@ curl -X POST http://127.0.0.1:5000/predict -F "file=@sample_digit.png"
   <p align="center">
   <img src="CNN_analysis/accuracy_and_loss_CNN.png" width="500">
   </p>
+  
 ### Confusion matrix: 
   <p align="center">
   <img src="CNN_analysis/confusion_matrix_CNN.png" width="400">
   </p>
+  
   The model predicted a **1** most accurately.
   Its most frequent errors are confusing **6 → 0** and **4 → 9**.
   
