@@ -1,5 +1,5 @@
 # MNIST Digit Classifier (CNN) — Flask Deployment
-Convolutional Neural Network trained on MNIST (≈98% test accuracy). Deployed on a serverless Flask API.
+Convolutional Neural Network trained on MNIST (98.5% accuracy). Deployed on a serverless Flask API.
 ---
 ## Upload a handwritten digit and see predictions:
 ![Eight Demo](screenshots/Demo_eight.PNG)
@@ -53,7 +53,8 @@ curl -X POST http://127.0.0.1:5000/predict -F "file=@sample_digit.png"
 
 
 ## Model Analysis:
-
+- 
+  ![Accuracy and Loss over Epochs](CNN analysis/accuracy_and_loss_CNN.PNG)
 
 
 ## License
