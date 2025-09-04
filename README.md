@@ -1,6 +1,6 @@
 # MNIST Digit Classifier (CNN) — Flask Deployment
 
-**TL;DR:** Convolutional Neural Network trained on MNIST (≈98% test accuracy). Served via a lightweight Flask API. Includes example notebook and demo.
+Convolutional Neural Network trained on MNIST (≈98% test accuracy). Deployed on a serverless Flask API. Includes example notebook and demo.
 
 ---
 
