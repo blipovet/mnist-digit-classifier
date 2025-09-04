@@ -5,10 +5,23 @@ Convolutional Neural Network trained on MNIST (≈98% test accuracy). Deployed o
 ![Eight Demo](screenshots/Demo_eight.PNG)
 ---
 
-## Features
+## Flask API
+POST /predict
+- `digit_classifier_app.py` 
+- Accepts an image (PNG/JPG)
+- Returns the predicted digit + top-3 probabilities in JSON:
+  {
+    "prediction": 7,
+    "confidence": 0.993,
+    "top3": [{"digit":7,"prob":0.993}, ...]
+  }
+
+# Model
 - CNN in TensorFlow/Keras
 - Training notebook: `MNIST_Digit_classifier_Notebook.ipynb`
-- Flask API: `digit_classifier_app.py` — accepts an image and returns predicted digit + top-3 probabilities
+- Architecture: Conv2D + Norm → Pool → Conv2D → Norm → Pool → Flatten → Dense → Dense
+- Trained on MNIST; test accuracy: 98.5%
+- Model file: [mnist_cnn.h5](https://github.com/blipovet/mnist-digit-classifier/releases/tag/v1.0)
 
 ---
 
@@ -39,20 +52,6 @@ curl -X POST http://127.0.0.1:5000/predict -F "file=@sample_digit.png"
 
 ---
 
-## API
-POST /predict
-- Accepts PNG/JPG or raw image bytes
-- Returns JSON:
-  {
-    "prediction": 7,
-    "confidence": 0.993,
-    "top3": [{"digit":7,"prob":0.993}, ...]
-  }
-
-# Model
-- Architecture: Conv2D + Norm → Pool → Conv2D → Norm → Pool → Flatten → Dense → Dense
-- Trained on MNIST; test accuracy: 98.5%
-- Model file: [mnist_cnn.h5](https://github.com/blipovet/mnist-digit-classifier/releases/tag/v1.0)
 
 ## Model Analysis:
 
