@@ -16,6 +16,7 @@ Convolutional Neural Network trained on MNIST (≈98% test accuracy). Deployed o
 ```bash
 git clone https://github.com/<your-username>/mnist-digit-classifier.git
 cd mnist-digit-classifier
+```
 
 2. Create a virtual environment and install:
 python -m venv venv
