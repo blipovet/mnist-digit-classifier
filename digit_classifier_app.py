@@ -17,7 +17,7 @@ app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 1*1024*1024
 
 # Load model
-model = load_model("mnist_cnn_blipovet.h5")
+model = load_model("mnist_cnn.h5")
 
 # Setup a limiter so that each IP can only hit /predict 10 times per minute
 limiter = Limiter(
