@@ -8,11 +8,10 @@ Convolutional Neural Network trained on MNIST (≈98% test accuracy). Deployed o
 - CNN in TensorFlow/Keras
 - Training notebook: `MNIST_Digit_classifier_Notebook.ipynb`
 - Flask API: `digit_classifier_app.py` — accepts an image and returns predicted digit + top-3 probabilities
-- Model: `mnist_cnn.h5` (see Model section)
 
 ---
 
-## Quick start (run locally)
+## Quick start
 1. Clone:
 ```bash
 git clone https://github.com/<your-username>/mnist-digit-classifier.git
