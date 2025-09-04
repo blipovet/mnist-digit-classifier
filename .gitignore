@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.env/
+*.sqlite
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python packaging
+pip-log.txt
+
+# Do not commit model weights unless via Git LFS or Releases
+*.h5
+*.hdf5
